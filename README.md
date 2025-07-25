@@ -1,3 +1,3 @@
 # arkeo-ui
 Minimal UI w/ React
-### Progress bar under heavy rework
+### Progress bar under rework. Might turn this into a lib
