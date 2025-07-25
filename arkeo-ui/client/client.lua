@@ -102,9 +102,7 @@ RegisterNUICallback('ProgressBarCancelled', function(_, cb)
     cb({})
 end)
 
--- =========================
--- Test/Dev Commands
--- =========================
+-- Dev commads
 
 RegisterCommand('drinkwater', function()
     if arkeo.progressBar({ label = "Drinking water...", duration = 3500 }) then
@@ -123,3 +121,7 @@ end, false)
 RegisterCommand('activeMission', function()
     ShowMissionCard("Test Mission", "This is a test")
 end, false)
+
+-- exports['arkeo-ui']:activeMission(title, msg)
+-- exports['arkeo-ui']:HideMission()
+-- exports['arkeo-ui']:Notification(msg, type, duration, title)
